@@ -1,0 +1,23 @@
+.boundary{
+	margin:5px;
+	padding:5px;
+}
+
+.backgrounds{
+	border: 2px solid #FFA500;
+	color:#FFA500;
+	background-color:#787878;
+}
+
+
+.line{
+	margin:5px;
+	padding:5px;
+	 word-wrap: break-word;
+}
+
+
+.inputField{
+	margin-left: 29px;
+    width: 56%;
+}

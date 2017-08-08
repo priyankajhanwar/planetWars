@@ -1,0 +1,11 @@
+<div class="boundary backgrounds container">
+	<div class="boundary">
+	<label><b>Username</b></label>
+	<input [(ngModel)]="uname" type="text" placeholder="Enter Username" required>
+	</div>
+	<div class="boundary">
+	<label><b>Password</b></label>
+	<input [(ngModel)]="pwd" type="password" placeholder="Enter Password" required>
+	</div>
+	<button class="boundary buttonColor" (click)="onLogin(uname,pwd)" type="submit">Login</button>
+</div>
