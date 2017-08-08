@@ -15,7 +15,6 @@ export class LoginPageComponent  {
 				private http:Http,
 				private searchService: SearchService,
 				private loginService: LoginService) {}
-
 	title = 'app works!';
 	uname='C-3PO';
 	pwd='112BBY';
@@ -24,7 +23,6 @@ export class LoginPageComponent  {
 	loginData:any;
 
 	onLogin(user,password){
-
 		this.loginService.onLogin(user,password)
 		.subscribe(data => {
 			this.loginData = data.results;
@@ -37,5 +35,4 @@ export class LoginPageComponent  {
 			}
 		});
 	}
-
 }

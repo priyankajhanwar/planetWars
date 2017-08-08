@@ -26,17 +26,4 @@ export class SearchPageComponent {
       this.results = this.searchService.getPercentage(this.searchService.sorting(data.results));
     });
   }
-
-
-
-  // getFont(j){
-    //   let len =Object.keys(this.results).length;
-    //   for(let i=0;i< len;i++){
-      //     if(this.results[i].population==="unknown"){
-        //         this.results[i].percent=1;
-        //     }
-        //            this.fontSize[i]=this.results[i].percent+"px";
-        //     }
-        //       return this.fontSize[j];
-        // }
-  }
+ }

@@ -2,14 +2,11 @@
 	margin:5px;
 	padding:5px;
 }
-
 .backgrounds{
 	border: 2px solid #FFA500;
 	color:#FFA500;
 	background-color:#787878;
 };
-
-
 .buttonColor{
 	background-color: #FFA500;
 	color:white

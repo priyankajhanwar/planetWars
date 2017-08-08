@@ -1,12 +1,8 @@
-
-<!-- [ngStyle]="{ 'font-size' : fontSize+1} -->
-
 <div class="boundary backgrounds">
 <input  id="input" class="boundary inputField backgrounds" (keyup)="searchTerm$.next($event.target.value)">
 <ul  *ngFor="let result of results">
 	<li class="line" [ngStyle]="{ 'font-size' : fontSize} ">
 		{{ result.name }} {{result.population}} 
-		<!-- {{result.percent}} -->
 	</li>
 </ul>
 </div>
